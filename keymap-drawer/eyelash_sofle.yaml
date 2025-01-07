@@ -53,8 +53,8 @@ layers:
   - {t: /, s: '?'}
   - {t: '''', s: '"'}
   - $$mdi:volume-off$$
-  - $$mdi:apple-keyboard-command$$
   - $$mdi:apple-keyboard-option$$
+  - $$mdi:apple-keyboard-command$$
   - $$mdi:keyboard-esc$$
   - $$mdi:keyboard-tab$$
   - $$mdi:apple-keyboard-shift$$
@@ -194,6 +194,3 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: held}
-combos:
-- p: [52, 39, 53, 54]
-  k: {t: KEYB, h: toggle}
