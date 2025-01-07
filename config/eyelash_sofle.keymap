@@ -46,6 +46,15 @@
         tap-ms = <30>;
     };
 
+    combos {
+        compatible = "zmk,combos";
+
+        Gaming {
+            bindings = <&tog 2>;
+            key-positions = <52 39 53 54>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
