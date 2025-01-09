@@ -57,7 +57,7 @@ layers:
   - $$mdi:apple-keyboard-command$$
   - $$mdi:keyboard-esc$$
   - $$mdi:keyboard-tab$$
-  - $$mdi:apple-keyboard-shift$$
+  - '&toggle_shift'
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:keyboard-space$$
   - {t: '$$mdi:backspace$$', type: backspace}
@@ -194,3 +194,12 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: held}
+combos:
+- p: [34, 35]
+  k: $$mdi:arrow-left-bold$$
+- p: [36, 37]
+  k: $$mdi:arrow-right-bold$$
+- p: [35, 36]
+  k: $$mdi:arrow-up-bold$$
+- p: [34, 37]
+  k: $$mdi:arrow-down-bold$$
