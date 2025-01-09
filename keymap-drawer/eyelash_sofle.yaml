@@ -57,7 +57,7 @@ layers:
   - $$mdi:apple-keyboard-command$$
   - $$mdi:keyboard-esc$$
   - $$mdi:keyboard-tab$$
-  - '&toggle_shift'
+  - {t: '$$mdi:apple-keyboard-shift$$', h: '$$mdi:apple-keyboard-shift$$'}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:keyboard-space$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
